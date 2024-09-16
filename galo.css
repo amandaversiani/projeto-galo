@@ -1,0 +1,107 @@
+body{
+	font-family: "Helvetica", Arial, sans-serif;
+}
+
+
+h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-bottom: 30px;
+    grid-area: header;
+}
+.header{
+    background-color: black;
+}
+.clube{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    list-style-type: none;
+    align-items: center;
+    padding-top: px;
+    grid-area: navbar;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 3px solid white;
+    grid-area: header;
+    
+}
+
+#sobre{
+    text-decoration: underline yellow;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    grid-area: navbar;
+}
+
+.navbar{
+    background-color:black;
+    margin-top: px;
+    grid-area: navbar;
+}
+
+h2{
+    text-align: center;
+    font-size: 19.5px;
+}
+
+
+.saidbar{
+    background-color: black;
+    color: white;
+    padding-top: 40px;
+    grid-area: saidbar;
+}
+
+.instituicoes{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+
+}
+.main{
+    grid-area: main;
+    background-color: whitesmoke;
+    text-align: justify;
+    padding: 9.5px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: small;
+    grid-area: footer;
+    
+}
+
+#rede-social{
+    font-size: medium;
+}
+
+.container{
+ display: grid;
+ grid-template-areas: 
+ "header" "header" "header"
+ "navbar" "navbar" "navbar"
+ "saidbar" "main" "main"
+ "footer" "footer" "footer";
+
+}
